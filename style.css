@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background-image: url("background1.png");
+    background-size: contain;
+}
+.heading{
+    width: 99%;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.heading button{
+    float: right;
+}
+#canvas{
+    border-radius: 5px;
+    border: 5px solid white;
+    box-shadow: 5px 5px 25px black;
+    width: 710px;
+    height: 610px;
+}
+.gbnt{
+    font-size: 19px;
+    font-weight: 100;
+}
+.modal-dialog{
+    width: 70%;
+}
+ol{
+    text-align: left;
+}
+#close{
+    width: 35px;
+    height: 35px;
+}
+.footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
